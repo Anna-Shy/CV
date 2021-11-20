@@ -85,3 +85,40 @@ a {
   margin: 0 5px;
 }
 
+.about {
+}
+
+.about__title {
+}
+
+.title {
+    text-align: center;
+    color: #21062a;
+    font-size: 36px;
+    line-height: 53px;
+    font-weight: 400;
+}
+
+.about__inner {
+}
+
+.about__desc {
+}
+
+.about__text {
+}
+
+.about__info {
+}
+
+.about__list {
+}
+
+.about__item {
+}
+
+.about__item-title {
+}
+
+.about__item-text {
+}
