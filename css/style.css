@@ -25,7 +25,7 @@ a {
 }
 
 .header {
-  background-image: url(../images/bg1.jpg);
+  background: #21062a;
   mask-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -33,12 +33,11 @@ a {
 }
 
 .header__title {
-  text-align: center;
   font-weight: 500;
-  font-size: 50px;
+  font-size: 65px;
   line-height: 130%;
   margin-left: 150px;
-  margin-bottom: auto;
+  font-style: oblique;
 }
 
 .header__inner {
@@ -54,6 +53,18 @@ a {
   align-items: center;
   flex-wrap: wrap;
   padding: 15px 0 49px;
+}
+
+.header__images-myphoto {
+  position: absolute;
+  right: 0;
+  width: 500px;
+  height: 525px;
+  bottom: 35px;
+  margin-right: 250px;
+  border-radius: 60px; 
+  border: 3px groove #fff;
+  box-shadow: 0 0 7px rgb(122, 116, 116);
 }
 
 .menu {
@@ -388,3 +399,5 @@ a {
   padding: 20px 20px;
   font-size: 26px;
 }
+
+

@@ -8,7 +8,8 @@
     <title>CV</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Praise&family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Praise&family=Source+Sans+Pro:wght@300;400&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/jquery.fancybox.css">
@@ -24,22 +25,23 @@
                     <nav class="menu">
                         <ul class="menu__list">
                             <li class="menu__item">
-                                <a class="menu__link" href="#">About</a>
+                                <a class="menu__link" href="#about">About</a>
                             </li>
                             <li class="menu__item">
-                                <a class="menu__link" href="#">Skill</a>
+                                <a class="menu__link" href="#skill">Skill</a>
                             </li>
                             <li class="menu__item">
-                                <a class="menu__link" href="#">Certification</a>
+                                <a class="menu__link" href="#carousel">Certification</a>
                             </li>
                             <li class="menu__item">
-                                <a class="menu__link" href="#">Contact</a>
+                                <a class="menu__link" href="#contact">Contact</a>
                             </li>
                         </ul>
                     </nav>
                 </div>
 
                 <h1 class="header__title">Anna Shylkina</h1>
+                <img class="header__images-myphoto" src="images/my-photo.jpg" alt="">
 
                 <div class="header__social social">
                     <a class="social__link" href="https://t.me/anya_shy" target="_blank">
@@ -59,7 +61,7 @@
         </div>
     </header>
 
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <h2 class="title">About</h2>
             <div class="about__inner">
@@ -101,7 +103,7 @@
         </div>
     </section>
 
-    <section class="skill">
+    <section class="skill" id="skill">
         <div class="container">
             <h2 class="title">Skill</h2>
             <div class="skill__inner">
@@ -153,7 +155,7 @@
         </div>
     </section>
 
-    <section class="carousel">
+    <section class="carousel" id="carousel">
         <div class="container">
             <h2 class="title">Certification</h2>
             <div class="carousel__inner">
@@ -191,17 +193,17 @@
         </div>
     </section>
 
-    <section class="contact">
-            <div class="container">
-              <h2 class="contact__title title">Contact me</h2>
-              <form class="contact__form">
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="contact__title title">Contact me</h2>
+            <form class="contact__form">
                 <input class="contact__input" type="text" placeholder="Your name">
                 <input class="contact__input" type="tel" placeholder="You phone number">
                 <input class="contact__input" type="email" placeholder="E-mail">
                 <textarea class="contact__area" placeholder="Comment"></textarea>
                 <button class="contact__btn" type="submit">Send</button>
-              </form>
-            </div>
+            </form>
+        </div>
     </section>
 
     <footer class="footer">
