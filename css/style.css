@@ -134,3 +134,125 @@ a {
   margin-bottom: 5px;
 }
 
+.skill__content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+
+  margin-bottom: 30px;
+}
+
+.skill__title {
+  text-align: center;
+  color: #21062a;
+  font-size: 20px;
+  line-height: 53px;
+  font-weight: 400;
+}
+
+.skill__progressbar {
+  width: 70%;
+  height: 25px;
+  border: 1px solid #2c2b2b;
+  border-radius: 7px;
+  padding: 4px;
+  margin-top: 15px;
+}
+
+.skill__progress {
+  width: 10%;
+  background-color: #35225a;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.progress-html {
+  animation: progress-html 1s ease-out forwards;
+}
+
+.progress-css {
+  animation: progress-css 1s ease-out forwards;
+}
+
+.progress-js {
+  animation: progress-js 1s ease-out forwards;
+}
+
+.progress-bootstrap {
+  animation: progress-bootstrap 1s ease-out forwards;
+}
+
+.progress-java-c {
+  animation: progress-java-c 1s ease-out forwards;
+}
+
+.progress-sql {
+  animation: progress-sql 1s ease-out forwards;
+}
+
+.progress-git {
+  animation: progress-git 1s ease-out forwards;
+}
+
+@keyframes progress-html {
+  from {
+    width: 10%;
+  }
+  to {
+    width: 90%;
+  }
+}
+
+@keyframes progress-css {
+  from {
+    width: 10%;
+  }
+  to {
+    width: 90%;
+  }
+}
+
+@keyframes progress-js {
+  from {
+    width: 10%;
+  }
+  to {
+    width: 70%;
+  }
+}
+
+@keyframes progress-bootstrap {
+  from {
+    width: 10%;
+  }
+  to {
+    width: 70%;
+  }
+}
+
+@keyframes progress-java-c {
+  from {
+    width: 10%;
+  }
+  to {
+    width: 55%;
+  }
+}
+
+@keyframes progress-sql {
+  from {
+    width: 10%;
+  }
+  to {
+    width: 45%;
+  }
+}
+
+@keyframes progress-git {
+  from {
+    width: 10%;
+  }
+  to {
+    width: 85%;
+  }
+}
