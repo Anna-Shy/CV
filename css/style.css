@@ -33,7 +33,7 @@ a {
 }
 
 .header__title {
-  /* text-align: center; */
+  text-align: center;
   font-weight: 500;
   font-size: 50px;
   line-height: 130%;
@@ -68,7 +68,7 @@ a {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-size: 16px;
+  font-size: 20px;
   color: #fff;
 }
 
@@ -85,8 +85,10 @@ a {
   margin: 0 5px;
 }
 
-.about {
-  padding: 100px 0;
+.about,
+.skill,
+.carousel {
+  padding: 75px 0;
 }
 
 .title {
@@ -194,6 +196,10 @@ a {
   animation: progress-git 1s ease-out forwards;
 }
 
+.progress-english {
+  animation: progress-english 1s ease-out forwards;
+}
+
 @keyframes progress-html {
   from {
     width: 10%;
@@ -255,4 +261,68 @@ a {
   to {
     width: 85%;
   }
+}
+
+@keyframes progress-english {
+  from {
+    width: 10%;
+  }
+  to {
+    width: 75%;
+  }
+}
+
+.carousel__item {
+  padding: 6px 6px 16px 6px;
+  text-align: center;
+  transition: all 0.5s;
+}
+
+.carousel__item:hover {
+  color: #fff;
+  background-color: #5a0d67;
+  border-color: #5a0d67;
+}
+
+.carousel__img {
+  max-width: 100%;
+  margin: 5px 5px;
+}
+
+.carousel .slick-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  list-style: none;
+}
+
+.carousel .slick-dots button {
+  font-size: 0;
+  border: none;
+  padding: 0;
+  margin: 0 10px;
+  background-color: #c4c4c4;
+  width: 50px;
+  height: 1px;
+}
+
+.carousel .slick-active button {
+  background-color: #5a0d67;
+  height: 3px;
+}
+
+.footer {
+  background-color: #21062a;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.footer__title{
+  color: #fff;
+  padding: 20px 20px;
+  font-size: 26px;
 }
