@@ -86,39 +86,51 @@ a {
 }
 
 .about {
-}
-
-.about__title {
+  padding: 100px 0;
 }
 
 .title {
-    text-align: center;
-    color: #21062a;
-    font-size: 36px;
-    line-height: 53px;
-    font-weight: 400;
+  text-align: center;
+  color: #21062a;
+  font-size: 36px;
+  line-height: 53px;
+  font-weight: 400;
+
+  margin-bottom: 20px;
 }
 
 .about__inner {
+  display: flex;
 }
 
 .about__desc {
+  text-align: justify;
+  width: 1205px;
+  margin-right: 96px;
+  margin-top: 50px;
 }
 
 .about__text {
+  font-size: 19px;
 }
 
 .about__info {
+  width: 100%;
+  color: #fff;
 }
 
 .about__list {
+  list-style: none;
+  background-color: #21062a;
+  padding: 25px 0 25px 85px;
 }
 
 .about__item {
+  margin-bottom: 20px;
 }
 
 .about__item-title {
+  font-weight: 700;
+  margin-bottom: 5px;
 }
 
-.about__item-text {
-}
